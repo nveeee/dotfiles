@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background: rgba(34, 36, 54, 0.6);
+  background: rgba(40, 40, 40, 0.8);
 }
 
 window#waybar.hidden {
@@ -26,7 +26,7 @@ window#waybar.hidden {
 #pulseaudio-slider,
 #network,
 #language {
-  color: #161320;
+  color: #1d2021;
   margin-top: 6px;
   margin-bottom: 6px;
   padding-left: 10px;
@@ -57,57 +57,53 @@ window#waybar.hidden {
 /* Modules left */
 #custom-archicon {
   font-size: 20px;
-  color: #89B4FA;
+  color: #FABD2F;
   background: #161320;
   padding-right: 17px;
 }
 
 #clock {
-  background: #ABE9B3;
+  background: #EBDBB2;
 }
 
 #cpu {
-  background: #96CDFB;
+  background: #FBF1C7;
 }
 
 #memory {
-  background: #DDB6F2;
+  background: #FE8019;
 }
 
 #disk {
-  background: #F5C2E7;
-}
-
-#temperature {
-  background: #F8BD96;
+  background: #FB4934;
 }
 
 /* Modules center */
 #workspaces {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(29, 32, 33, 0.5);
   border-radius: 10px;
   margin: 6px 5px;
   padding: 0px 6px;
 }
 
 #workspaces button {
-  color: #B5E8E0;
+  color: #D79921;
   background: transparent;
   padding: 4px 4px;
   transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
 }
 
 #workspaces button.occupied {
-  color: #A6E3A1;
+  color: #FABD2F;
 }
 
 #workspaces button.active {
-  color: #89B4FA;
+  color: #FABD2F;
   text-shadow: 0 0 4px #ABE9B3;
 }
 
 #workspaces button:hover {
-  color: #89B4FA;
+  color: #D79921;
 }
 
 #workspaces button.active:hover {}
@@ -136,19 +132,19 @@ window#waybar.hidden {
 }
 
 #idle_inhibitor {
-  background: #B5E8E0;
+  background: #8EC07C;
   padding-right: 15px;
 }
 
 #pulseaudio {
   min-width: 55px;
-  color: #1A1826;
-  background: #F5E0DC;
+  color: #282828;
+  background: #B8BB26;
 }
 
 #pulseaudio-slider {
-  color: #1A1826;
-  background: #E8A2AF;
+  color: #83A598;
+  background: #D3869B;
   min-width: 50px;
 }
 
@@ -156,12 +152,12 @@ window#waybar.hidden {
 
 
 #network {
-  background: #CBA6F7;
+  background: #EBDBB2;
   padding-right: 13px;
 }
 
 #language {
-  background: #A6E3A1;
+  background: #FE8019;
   padding-right: 15px;
 }
 
